@@ -3,8 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   typescript: {
-    strictNullChecks: true,
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   poweredByHeader: false,
   eslint: {
