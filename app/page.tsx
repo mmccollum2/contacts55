@@ -1,8 +1,16 @@
+import Link from "next/link"
+import styles from "./page.module.css"
+
 export default function Home() {
   return (
-    <main>
-      <h1>Welcome to My Website</h1>
-      <p>Built with Next.js 14 and deployed on Vercel</p>
+    <main className={styles.container}>
+      <div className={styles.content}>
+        <h1 className={styles.logo}>MyRolodex</h1>
+        <p className={styles.tagline}>Your contacts, synced privately across every device.</p>
+        <Link href="/login" className={styles.button}>
+          Admin Login
+        </Link>
+      </div>
     </main>
   )
 }

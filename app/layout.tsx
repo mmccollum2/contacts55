@@ -3,8 +3,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Hello World",
-  description: "Simple Hello World app",
+  title: "MyRolodex - Your Contacts, Synced Privately",
+  description: "Your contacts, synced privately across every device.",
     generator: 'v0.app'
 }
 
